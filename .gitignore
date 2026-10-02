@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Local database and product images
+data/
+data.zip
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/

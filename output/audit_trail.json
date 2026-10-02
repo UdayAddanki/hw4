@@ -1,0 +1,28 @@
+[
+  {
+    "time": "2026-10-01T22:11:31.962172+00:00",
+    "tool_name": "agent_run",
+    "args": "{\"message\":\"Hello\"}",
+    "result": "\"reply='Local audit test' products=[]\"",
+    "stopped_reason": "completed"
+  },
+  {
+    "time": "2026-10-01T22:11:31.968721+00:00",
+    "tool_name": "search_products",
+    "args": "{\"query\":\"hoodies\"}",
+    "result": "[\"product_id='basic-hoodie-big-yale' name='Basic Hoodie Big Yale' price=68.0 description='Navy pullover hoodie with a front kangaroo pocket, drawstring hood, and large white YALE lettering across the chest.' image_url='/transparent-product-images/basic-hoodie-big-yale.png' availability=[SizeAvailability(size='L', quantity=8), SizeAvailability(size='M', quantity=5), SizeAvailability(size='S', quantity=5), SizeAvailability(size='XL', quantity=2), SizeAvailability(size='XS', quantity=15), SizeAvai\u2026"
+  },
+  {
+    "time": "2026-10-01T22:20:19.864733+00:00",
+    "tool_name": "search_products",
+    "args": "{\"query\":\"Yale birthday gift for a friend\"}",
+    "result": "[\"product_id='2025-yale-vs-harvard-t-shirt' name='2025 Yale Vs Harvard T Shirt' price=32.0 description='Heather gray short-sleeve T-shirt featuring a 2025 Harvard-Yale The Game graphic, with red Harvard and navy Yale football helmets facing each other and collegiate team marks.' image_url='/transparent-product-images/2025-yale-vs-harvard-t-shirt.png' availability=[SizeAvailability(size='L', quantity=2), SizeAvailability(size='M', quantity=20), SizeAvailability(size='S', quantity=25), SizeAvaila\u2026"
+  },
+  {
+    "time": "2026-10-01T22:20:23.911126+00:00",
+    "tool_name": "agent_run",
+    "args": "{\"message\":\"find me a gift for my friends birthday\"}",
+    "result": "\"reply='Here are a few Yale gift ideas for your friend\\u2019s birthday, from casual tees to cozy layers. The Basic Hoodie Big Yale or Offside Crewneck would make especially easy gifts if you know their size.' products=[ProductCard(product_id='2025-yale-vs-harvard-t-shirt', name='2025 Yale Vs Harvard T Shirt', price=32.0, description='Heather gray short-sleeve T-shirt featuring a 2025 Harvard-Yale The Game graphic, with red Harvard and navy Yale football helmets facing each other and collegiate \u2026",
+    "stopped_reason": "completed"
+  }
+]
